@@ -37,7 +37,7 @@ function App() {
     <>
       <h1>Stopwatch</h1>
       <p>
-      Time:{min}: {sec < 10 ? `0${sec}` : sec} 
+      Time: {min}:{sec < 10 ? `0${sec}`: sec} 
       </p>
       <button onClick={start}>{isRunning ? "Stop" : "Start"}</button>
       <button onClick={reset}>Reset</button>
